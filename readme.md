@@ -21,24 +21,6 @@ Chat interativo com inteligência artificial capaz de:
 - Node.js (v18+)
 - NPM
 
-### ⚙️ Configuração do Ambiente
-
-Configuração das variáveis de ambiente
-
-- Backend (backend/.env):
-
-```bash
-PORT=5000
-OLLAMA_MODEL=qwen2:7b
-OLLAMA_HOST=http://localhost:11434
-```
-
-- Frontend (frontend/.env):
-
-```bash
-REACT_APP_API_URL=http://localhost:5000
-```
-
 ### 🖥️ Instalação
 
 1. Clone este repositório
@@ -67,6 +49,21 @@ docker exec -it ollama ollama pull qwen2:7b
 docker exec -it ollama ollama list
 ```
 
+5. Configuração das variáveis de ambiente
+
+- Backend (backend/.env):
+
+```bash
+PORT=5000
+OLLAMA_MODEL=qwen2:7b
+OLLAMA_HOST=http://localhost:11434
+```
+
+- Frontend (frontend/.env):
+
+```bash
+REACT_APP_API_URL=http://localhost:5000
+```
 ### Rodar projeto:
 
 #### Backend
