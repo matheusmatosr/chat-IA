@@ -44,7 +44,7 @@ REACT_APP_API_URL=http://localhost:5000
 1. Clone este repositório
 
 ```bash
-git clone https://github.com/matheusmatosr/chat-ia.git
+git clone https://github.com/matheusmatosr/chat-IA.git
 ```
 
 ### ⚙️ Configuração do Ambiente
