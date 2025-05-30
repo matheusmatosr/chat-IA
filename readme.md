@@ -49,7 +49,7 @@ docker exec -it ollama ollama pull qwen2:7b
 docker exec -it ollama ollama list
 ```
 
-5. Configuração das variáveis de ambiente
+Configuração das variáveis de ambiente
 
 - Backend (backend/.env):
 
